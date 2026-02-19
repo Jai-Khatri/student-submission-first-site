@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    background-color: #101014;
+}
+
+.navb{
+    width: 100%;
+    display: flex;
+    background-color: #121216;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    padding-right: 20px;
+    /* align-items: flex-start; */
+}
+
+.nb{
+    display: flex;
+    width: 1100px;
+    list-style: none;
+    color: white;
+    gap: 50px;
+    
+}
+.logo{
+    width: 30px;
+    height: auto;
+}
+.si{
+    display: flex;
+    /* justify-content: end; */
+    /* background-color: #353538;  */
+    /* border-radius: 3px;
+    width: 75px;
+   padding-left: 15px; */
+    /* margin-left: 195px; */
+    /* align-items:flex-end ;
+    gap: 30px; */
+}
+
+.si h3{
+    color: white;
+    background-color: #353538 ;
+    width: 60px;
+    border-radius: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
+} 
+
+.dd{
+    background-color: #26BBFF; 
+    border-radius: 3px;
+    width: 95px;
+    /* align-items:flex-end ; */
+    margin-right:20px;
+}
+
+.dd h3{
+    display: flex; 
+    color: black;
+    justify-content: space-evenly;
+} 
+
+.seh{
+    display: flex;
+    margin-left: 120px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.sh img{
+    width: 12px;
+    height: auto;
+}
+
+.ds{
+    display: flex;
+    list-style: none;
+    width: 350px;
+    justify-content: space-around;
+    color: white;
+}
+
+.bpt{
+    margin-left: 120px;
+    margin-right: 125px;
+    font-family: "Inter", sans-serif;
+}
+
+.bip{
+    width: 900px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.bpt{
+    display: flex;
+    gap: 30px;
+}
+
+.bpt ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.bpt ul li{
+    color: white;
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.bpt ul li img{
+    width: 80px;
+    border-radius: 3px;
+
+}
+
+.bpt_li{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.bpt_li h3{
+    font-weight: 400;
+} 
+
+.dsn{
+    color: white;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 125px;
+}
+
+.dsn ul{
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+    list-style: none;
+}
+
+
+
+.dsni{
+    width: 200px;
+    height: 220px;
+    border-radius: 6px;
+}
+
+.ng{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.bag{
+    color: #808E98;
+    font-size: 16px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 10px;
+}
+
+.price h3{
+    background-color: #26BBFF;
+    color: black;
+    border-radius: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.rp{
+    color: #808E98;
+    text-decoration: line-through;
+}
+
+span{
+    color: #808E98;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.rps{
+    display: flex;
+}
+
+
+.ttt img{
+    width: 60px;
+    height: auto;
+    border-radius: 3px;
+}
+
+.ttt{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 125px;
+    font-family: "Inter", sans-serif;
+}
+
+.tps{
+    margin-bottom: 20px;
+}
+.tst{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.tfp{
+    margin-bottom: 20px;
+}
+
+.ftp{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.ftp h3{
+    font-weight: 400;
+}
+.tst h3 {
+    font-weight: 400;
+}
+
+.up h3{
+    font-weight: 400;
+}
+
+.tu{
+    margin-bottom: 20px;
+}
+
+.up{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.up h5{
+    color: #808E98;
+}
+
+.up h4{
+    color: white;
+    background-color: #808E98 ;
+    width: 70px;
+    border-radius: 3px;
+    padding-left: 4px;
+   
+}
+
+.ft{
+    background-color: #18181C;
+    font-family: "Inter", sans-serif;
+}
+
+.hd {
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    padding-top: 40px;
+    padding-left: 80px ;
+    margin-bottom: 40px;
+}
+
+.line {
+    height: 1px;
+    background-color: #808e9880;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.footer{
+    background-color: #18181C;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 80px ;
+    padding-right: 120px;
+    color: white;
+}
+
+.fot {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fot h5{
+    color: #808E98;
+    font-weight: 400;
+}
